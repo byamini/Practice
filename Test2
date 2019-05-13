@@ -1,0 +1,11 @@
+@Test
+	public void accessElements()
+	{
+		//access elements and send the data
+		driver.findElement(By.xpath("//input[@id='firstname']")).clear();
+		driver.findElement(By.xpath("//input[@id='firstname']")).sendKeys("firstName");
+		
+		driver.findElement(By.xpath("//input[@id='lastname']")).clear();
+		driver.findElement(By.xpath("//input[@id='lastname']")).sendKeys("lastName");
+		
+	}
