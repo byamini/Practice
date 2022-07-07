@@ -6,6 +6,6 @@
 		driver.manage().deleteAllCookies();
 		driver.manage().window().maximize();
 		driver.get("https://scgi.half.ebay.com/ws/eBayISAPI.dll?RegisterEnterInfo&usage=2943&ru=");
-		
+		//added comments
 	}
 	
